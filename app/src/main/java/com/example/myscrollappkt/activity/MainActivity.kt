@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun initViews(){
-        val b = findViewById<Button>(R.id.b_push)
-        b.setOnClickListener({
+        val bit = findViewById<Button>(R.id.b_push)
+        bit.setOnClickListener({
             openRecyclerActivity()
         })
     }
