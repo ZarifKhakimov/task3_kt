@@ -23,10 +23,22 @@ class RecyclerActivity : AppCompatActivity() {
         recyclerView = findViewById(R.id.recyclerview)
         recyclerView?.setLayoutManager(GridLayoutManager(context, 1))
         val members: ArrayList<Member> = ArrayList<Member>()
-        members.add(Member(R.drawable.iphone, "Xurshidbek"))
-        members.add(Member(R.drawable.kosmos, "Begzodbek"))
-        members.add(Member(R.drawable.iphone, "Xurshidbek"))
-        members.add(Member(R.drawable.kosmos, "Xurshidbek"))
+        members.add(Member(R.drawable.alisher_davlatov, "Akmal Davlatov"))
+        members.add(Member(R.drawable.xurshidbek_qurbonov_, "Xurshidbek Qurbobov"))
+        members.add(Member(R.drawable.mehrob_aka, "Mehrob Fayziyev"))
+        members.add(Member(R.drawable.me, "Asilbek Jahonov"))
+        members.add(Member(R.drawable.sanjarbek_suvonov_s, "Sanjarbek Suvonov"))
+        members.add(Member(R.drawable.akmal_paiziyev, "Akmal Paiziyev"))
+        members.add(Member(R.drawable.davronbek_turdiyev, "Davronbek Turdiyev"))
+        members.add(Member(R.drawable.dilshod_mirsoatov, "Dilshod Mirsoatov"))
+        members.add(Member(R.drawable.kadirov_dev, "Akmal Qodirov"))
+        members.add(Member(R.drawable.nurbek_boboyev_n, "Nurbek Boboyev"))
+        members.add(Member(R.drawable.umidjon_ishmuhammedov, "Umidjon Ishmuhamedov"))
+        members.add(Member(R.drawable.odilbek_mirzayev, "Odilbek Mirzayev"))
+
+
+
+
         refreshAdapter(members)
     }
 
