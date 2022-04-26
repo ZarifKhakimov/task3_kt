@@ -21,7 +21,7 @@ class RecyclerActivity : AppCompatActivity() {
     fun initViews() {
         context = this
         recyclerView = findViewById(R.id.recyclerview)
-        recyclerView?.setLayoutManager(GridLayoutManager(context, 1))
+        recyclerView?.setLayoutManager(GridLayoutManager(context, 2))
         val members: ArrayList<Member> = ArrayList<Member>()
         members.add(Member(R.drawable.alisher_davlatov, "Akmal Davlatov"))
         members.add(Member(R.drawable.xurshidbek_qurbonov_, "Xurshidbek Qurbobov"))
