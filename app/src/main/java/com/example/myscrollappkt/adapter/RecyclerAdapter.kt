@@ -35,9 +35,7 @@ class RecyclerAdapter(var context: Context?, members: ArrayList<Member>?) :
         }
     }
 
-    inner class MemberViewHolder(var view: View) : RecyclerView.ViewHolder(
-        view
-    ) {
+     class MemberViewHolder(var view: View) : RecyclerView.ViewHolder  (view) {
         var iv_profile: ImageView
         var tv_fullname: TextView
 

@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openRecyclerActivity(){
-        val intent = Intent(this, RecyclerActivity::class.java)
+        val intent = Intent(this, AdvancedActivity::class.java)
         startActivity(intent)
     }
 }
